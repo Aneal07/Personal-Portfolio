@@ -55,10 +55,10 @@ const Work = () => {
                 Covid-Stats Covid-Stats is a simple web application that provides statistics and data visualization for COVID-19 cases worldwide.
                 </p>
               <div className='pt-8 text-center'>
-                <a href="https://aneal07.github.io/Covid-Stats/" target='_blank'>
+                <a href="https://aneal07.github.io/Covid-Stats/" target='_blank' rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
                 </a>
-                <a href="https://github.com/Aneal07/Covid-Stats" target='_blank'>
+                <a href="https://github.com/Aneal07/Covid-Stats" target='_blank' rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
@@ -76,10 +76,10 @@ const Work = () => {
                 Bitebound is a web application build in react and designed for food that allows you to search by menu and price.
                 </p>
               <div className='pt-8 text-center'>
-                <a href="https://aneal07.github.io/Restaurent-Website/" target='_blank'>
+                <a href="https://aneal07.github.io/Restaurent-Website/" target='_blank' rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
                 </a>
-                <a href="https://github.com/Aneal07/Restaurent-Website" target='_blank'>
+                <a href="https://github.com/Aneal07/Restaurent-Website" target='_blank' rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
