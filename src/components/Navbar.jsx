@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaFreeCodeCamp}   from 'react-icons/fa';
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFreeCodeCamp}   from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import Logo from '../assets/logo-5.png'
 import {Link} from 'react-scroll'
@@ -83,19 +83,19 @@ const Navbar = () => {
             <ul>
                 <li className='w-[155px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
                     <a className='flex justify-between items-center w-full text-gray-300' 
-                    href="https://www.linkedin.com/in/anil-maharjan070707/" target='_blank'>
+                    href="https://www.linkedin.com/in/anil-maharjan070707/" target='_blank' rel="noopener noreferrer">
                         Linkedin <FaLinkedin size={30}/>
                     </a>
                 </li>
                 <li className='w-[155px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
                     <a className='flex justify-between items-center w-full text-gray-300' 
-                    href="https://github.com/Aneal07" target='_blank' >
+                    href="https://github.com/Aneal07" target='_blank'  rel="noopener noreferrer">
                         Github <FaGithub size={30}/>
                     </a>
                 </li>
                 <li className='w-[155px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
                     <a className='flex justify-between items-center w-full text-gray-300' 
-                    href="https://www.freecodecamp.org/mighty07" target='_blank'>
+                    href="https://www.freecodecamp.org/mighty07" target='_blank'rel="noopener noreferrer">
                         CodeCamp <FaFreeCodeCamp size={30}/>
                     </a>
                 </li>
