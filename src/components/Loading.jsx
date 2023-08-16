@@ -20,7 +20,7 @@ const Loading = () => {
         <div id='loading-screen' className='text-gray-300 font-bold flex fixed top-0 left-0 w-full h-screen bg-[#040b13] justify-center items-center'>
             <div className='text-center flex flex-col items-center'>
                 <h4 className='text-4xl'>Anil is thinking...</h4>
-                <GiThink size={48} className='my-2'/>
+                <GiThink size={58} className='my-2'/>
                 <div className='bg-red-600 rounded-full w-16 h-16 flex items-center justify-center mt-2'>
                     {percentage}%
                 </div>
