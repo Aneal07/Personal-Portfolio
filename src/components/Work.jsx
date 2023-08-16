@@ -34,10 +34,10 @@ const Work = () => {
                 Flimfusion specializes in helping users quickly and effectively find movies.
                 </p>
               <div className='pt-8 text-center'>
-                <a href="https://aneal07.github.io/Flimfusion/" target='_blank'>
+                <a href="https://aneal07.github.io/Flimfusion/" target='_blank' rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
                 </a>
-                <a href="https://github.com/Aneal07/Flimfusion" target='_blank'>
+                <a href="https://github.com/Aneal07/Flimfusion" target='_blank' rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
