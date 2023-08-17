@@ -23,8 +23,35 @@
     height: 250px;
 }
 
+.content-div {
+    border: 2px solid transparent;
+    transition: border-color 0.4s, box-shadow 0.4s;
+    /* Smooth transition for the border and shadow */
+}
+
 .content-div:hover {
     background-image: linear-gradient(to right,
             rgba(5, 68, 128, 0.8),
             hsla(222, 83%, 2%, 0.8)) !important;
+    cursor: pointer;
+    border-color: rgba(5, 68, 128, 0.8);
+    /* Give it a border color */
+    box-shadow: 0 0 15px 3px rgba(5, 68, 128, 0.6);
+    /* This adds the glowing effect */
+    animation: glowingBorder 1.5s infinite alternate;
+        /* Apply the animation */
 }
+@keyframes glowingBorder {
+    0% {
+        box-shadow: 0 0 5px 1px rgba(5, 68, 128, 0.6);
+    }
+
+    50% {
+        box-shadow: 0 0 15px 3px rgba(156, 12, 17, 0.6);
+    }
+
+    100% {
+        box-shadow: 0 0 5px 1px rgba(5, 68, 128, 0.6);
+    }
+}
+

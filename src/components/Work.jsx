@@ -5,7 +5,7 @@ import FilmImg from '../assets/flimfusion.jpg';
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#091425]'>
+    <div id='work' className='w-full md:h-screen text-gray-300 bg-[#091425]'>
       
       {/* Main container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center  w-full h-full'>

@@ -3,7 +3,7 @@ import {HiArrowNarrowRight} from 'react-icons/hi'
 
 const Home = () => {
   return (
-    <div name="home" className='w-full h-screen bg-[#040b13]'>
+    <div name="home" className='w-full h-screen bg-[#09182a]'>
       {/* container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-red-600 text-2xl'>Hi, My name is</p>
@@ -18,12 +18,12 @@ const Home = () => {
         
         <div className=''>
           {/* this need to be done and aswell as need to add 3 projects  */}
-          <button to="work" className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-gray-800 hover:border-gray-800'>
+          <a href="#work" className='text-white group border-2 px-6 py-3 my-2 items-center justify-center hover:bg-gray-800 hover:border-gray-800 inline-flex'>
             View Work 
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 '/>
             </span>
-          </button>
+          </a>
         </div>
       </div>
     </div>
