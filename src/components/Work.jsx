@@ -1,7 +1,7 @@
 import React from 'react';
 import WorkImg from '../assets/work.jpg';
 import CovidImg from '../assets/covid-stats.jpg';
-import FilmImg from '../assets/flimfusion.jpg';
+import GymGenius from '../assets/gymgenius.png'
 
 const Work = () => {
   return (
@@ -23,21 +23,21 @@ const Work = () => {
 
           {/* Project 1 */}
           <div 
-            style={{backgroundImage: `url(${FilmImg})`}}
+            style={{backgroundImage: `url(${GymGenius})`}}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/* hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <h1 className='text-2xl font-bold m-2 text-center  border-b-2 text-gray-300 border-red-600'>Flimfusion</h1>
+              <h1 className='text-2xl font-bold m-2 text-center  border-b-2 text-gray-300 border-red-600'>Gym-Genius</h1>
               <p className='m-2 text-white tracking-wider'>
-                Flimfusion is your dedicated movie search assistant.
-                Flimfusion specializes in helping users quickly and effectively find movies.
+                GymGenius is a web application that allows users to search for exercises
+                 based on specific criteria such as cardio, upper body, and more. 
                 </p>
               <div className='pt-8 text-center'>
-                <a href="https://aneal07.github.io/Flimfusion/" target='_blank' rel="noopener noreferrer">
+                <a href="https://reactfitnessappp.netlify.app/" target='_blank' rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
                 </a>
-                <a href="https://github.com/Aneal07/Flimfusion" target='_blank' rel="noopener noreferrer">
+                <a href="https://github.com/Aneal07/Gym-Genius" target='_blank' rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
