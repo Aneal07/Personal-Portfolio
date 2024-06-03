@@ -1,3 +1,5 @@
+##change the main logo to personal
+
 ##Personal Project
 
 # Getting Started with Create React App
