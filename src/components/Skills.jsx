@@ -12,6 +12,8 @@ import eact from '../assets/react.png'
 import Canva from '../assets/canva.png'
 import Node from '../assets/node.png'
 import Express from '../assets/express.jpg'
+import Mongo from '../assets/mongodb.webp'
+import Postman from '../assets/postman.png'
 
 
 const Skills = () => {
@@ -74,6 +76,15 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Express} alt="HTML icon" />
                   <p className='my-4'>EXPRESS.JS</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
+                  <p className='my-4'>MONGO.DB</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Postman} alt = 'HTML icon'
+/>
+                  <p className='my-4'>POSTMAN</p>
               </div>
             
           </div>
