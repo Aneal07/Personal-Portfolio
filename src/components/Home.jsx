@@ -14,11 +14,12 @@ const Home = () => {
           I'm a Self-taught Developer{' '}
         </h1>
         <p className='text-[#ccd6f6] py-4 max-w-[700px]'>
-          As a self-taught developer, I'm passionate about creating responsive
-          and impactful web applications. Recently completing the NCFE Level 3
-          coding in practice course has strengthened my full-stack development
-          skills. I'm dedicated to continuous learning and excited about
-          applying my expertise to innovate in the tech industry.
+          I am a Passionate Self-Taught Developer driven by a deep passion for
+          software development, I have honed my skills through self-teaching and
+          practical experience. Completing the NCFE Level 3 Certificate in
+          Coding Practices has enhanced my expertise in full-stack development.
+          I am committed to continuous learning and excited to bring innovative
+          solutions to the tech industry.
         </p>
 
         <div className=''>
