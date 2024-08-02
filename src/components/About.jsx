@@ -11,24 +11,32 @@ const About = () => {
             </p>
           </div>
           <div></div>
+        </div>
+        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+          <div className='sm:text-right text-4xl font-bold'>
+            <p>Hi. I'm Anil, nice to meet you. Please take a look around.</p>
           </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I'm Anil, nice to meet you. Please take a look around.</p>
-            </div>
-            <div>
-              <p>I began my coding journey with freeCodeCamp. 
-                 Through this platform, 
-                I've been able to consistently expand my web development skills and knowledge. 
-             I've gained my skills through self-directed learning and personal projects.
-             <br></br>
-            When I'm not coding, you can find me exploring the outdoors and going on hikes. 
-            If you have any questions or just want to chat, feel free to reach out to me!</p>  
-            </div>
+          <div>
+            <p>
+              I began my coding journey with freeCodeCamp. Through this
+              platform, I've been able to consistently expand my Software development
+              skills and knowledge. Seeking structured guidance and
+              collaborative learning, I subsequently joined the NCFE Level 3
+              Certificate in Coding Practices course. This experience allowed me
+              to work as part of a team, honing my skills further in a dynamic
+              and supportive environment.
+            </p>
+
+            <p>
+              When I'm not coding, you can find me exploring the outdoors and
+              going on hikes. If you have any questions or just want to chat,
+              feel free to reach out to me!
+            </p>
           </div>
+        </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default About
