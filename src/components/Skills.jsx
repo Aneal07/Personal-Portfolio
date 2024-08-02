@@ -10,6 +10,7 @@ import Git from '../assets/git-logo.png'
 import JavaScript from '../assets/javascript.png'
 import eact from '../assets/react.png'
 import Canva from '../assets/canva.png'
+import Node from '../assets/node.png'
 
 
 const Skills = () => {
@@ -64,6 +65,10 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Canva} alt="HTML icon" />
                   <p className='my-4'>CANVA</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
+                  <p className='my-4'>NODE.JS</p>
               </div>
             
           </div>
