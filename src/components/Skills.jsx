@@ -1,21 +1,10 @@
-import React from 'react'
-
 import Html from '../assets/html.png'
 import Css from '../assets/css.png'
-import Bootstrap from '../assets/bootstrap.png'
 import Tailwind from '../assets/tailwind.png'
 import Sass from '../assets/sass.png'
 import Github from '../assets/github.png'
-import Git from '../assets/git-logo.png'
 import JavaScript from '../assets/javascript.png'
 import eact from '../assets/react.png'
-import Canva from '../assets/canva.png'
-import Node from '../assets/node.png'
-import Express from '../assets/express.jpg'
-import Mongo from '../assets/mongodb.webp'
-import Postman from '../assets/postman.png'
-import Insomia from '../assets/insomnia.png'
-import Visual from '../assets/visual.png'
 
 const Skills = () => {
   return (
@@ -50,14 +39,6 @@ const Skills = () => {
             <img className='w-20 mx-auto' src={eact} alt='REACT icon' />
             <p className='my-4'>REACT</p>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Github} alt='GITHUB icon' />
-            <p className='my-4'>GITHUB</p>
-          </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Git} alt='GIT icon' />
-            <p className='my-4'>GIT</p>
-          </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={Tailwind} alt='TAILWIND icon' />
@@ -66,7 +47,7 @@ const Skills = () => {
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img
               className='w-20 mx-auto'
-              src={Bootstrap}
+              src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg'
               alt='BOOTSTRAP icon'
             />
             <p className='my-4'>BOOTSTRAP</p>
@@ -76,31 +57,80 @@ const Skills = () => {
             <p className='my-4'>SASS</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Canva} alt='CANVA icon' />
-            <p className='my-4'>CANVA</p>
+            <img
+              className='w-20 mx-auto'
+              src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materializecss/materializecss-original.svg'
+              alt='SASS icon'
+            />
+            <p className='my-4'>MATERIALIZECSS</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Node} alt='NODE icon' />
+            <img className='w-20 mx-auto' src={Github} alt='GITHUB icon' />
+            <p className='my-4'>GITHUB</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img
+              className='w-20 mx-auto'
+              src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg'
+              alt='GIT icon'
+            />
+            <p className='my-4'>GIT</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img
+              className='w-20 mx-auto'
+              src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg'
+              alt='NODE icon'
+            />
             <p className='my-4'>NODE.JS</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Express} alt='EXPRESS icon' />
+            <img
+              className='w-20 mx-auto'
+              src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg'
+              alt='EXPRESS icon'
+            />
             <p className='my-4'>EXPRESS.JS</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Mongo} alt='MONGO icon' />
+            <img
+              className='w-20 mx-auto'
+              src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg'
+              alt='MONGO icon'
+            />
             <p className='my-4'>MONGO.DB</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Postman} alt='POSTMAN icon' />
+            <img
+              className='w-20 mx-auto'
+              src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg'
+              alt='POSTMAN icon'
+            />
             <p className='my-4'>POSTMAN</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Insomia} alt='POSTMAN icon' />
+            <img
+              className='w-20 mx-auto'
+              src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original.svg'
+              alt='POSTMAN icon'
+            />
             <p className='my-4'>INSOMNIA</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Visual} alt='POSTMAN icon' />
+            <img
+              className='w-20 mx-auto'
+              src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg'
+              alt='CANVA icon'
+            />
+            <p className='my-4'>CANVA</p>
+          </div>
+
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img
+              className='w-20 mx-auto'
+              src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg'
+              alt='POSTMAN icon'
+            />
             <p className='my-4'>VISUAL</p>
           </div>
         </div>
