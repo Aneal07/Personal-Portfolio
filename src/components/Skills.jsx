@@ -15,6 +15,7 @@ import Express from '../assets/express.jpg'
 import Mongo from '../assets/mongodb.webp'
 import Postman from '../assets/postman.png'
 import Insomia from '../assets/insomnia.png'
+import Visual from '../assets/visual.png'
 
 const Skills = () => {
   return (
@@ -97,6 +98,10 @@ const Skills = () => {
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={Insomia} alt='POSTMAN icon' />
             <p className='my-4'>INSOMNIA</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={Visual} alt='POSTMAN icon' />
+            <p className='my-4'>VISUAL</p>
           </div>
         </div>
       </div>
