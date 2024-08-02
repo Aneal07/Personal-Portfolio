@@ -32,57 +32,57 @@ const Skills = () => {
                   <p className='my-4'>HTML</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Css} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={Css} alt="CSS icon" />
                   <p className='my-4'>CSS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={JavaScript} alt="JAVASCRIPT icon" />
                   <p className='my-4'>JAVASCRIPT</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={eact} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={eact} alt="REACT icon" />
                   <p className='my-4'>REACT</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Github} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={Github} alt="GITHUB icon" />
                   <p className='my-4'>GITHUB</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Git} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={Git} alt="GIT icon" />
                   <p className='my-4'>GIT</p>
               </div>
              
            
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={Tailwind} alt="TAILWIND icon" />
                   <p className='my-4'>TAILWIND</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Bootstrap} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={Bootstrap} alt="BOOTSTRAP icon" />
                   <p className='my-4'>BOOTSTRAP</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Sass} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={Sass} alt="SASS icon" />
                   <p className='my-4'>SASS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Canva} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={Canva} alt="CANVA icon" />
                   <p className='my-4'>CANVA</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={Node} alt="NODE icon" />
                   <p className='my-4'>NODE.JS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Express} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={Express} alt="EXPRESS icon" />
                   <p className='my-4'>EXPRESS.JS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={Mongo} alt="MONGO icon" />
                   <p className='my-4'>MONGO.DB</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Postman} alt = 'HTML icon'
+                  <img className='w-20 mx-auto' src={Postman} alt = 'POSTMAN icon'
 />
                   <p className='my-4'>POSTMAN</p>
               </div>
