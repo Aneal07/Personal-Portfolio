@@ -1,5 +1,5 @@
 import React from 'react'
-import WorkImg from '../assets/work.jpg'
+import WorkImg from '../assets/dashboard.png'
 import CovidImg from '../assets/covid-stats.jpg'
 import Estate from '../assets/estate.png'
 
@@ -100,15 +100,16 @@ const Work = () => {
             {/* hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
               <h1 className='text-2xl font-bold m-2 text-center  border-b-2 text-gray-300 border-red-600'>
-                Bitebound
+                Blog-Dashboard-MERN
               </h1>
               <p className='m-2 text-white tracking-wider'>
-                Bitebound is a web application build in react and designed for
-                food that allows you to search by menu and price.
+                The "Blog with Dashboard" project is a full-stack web
+                application built using the MERN stack (MongoDB, Express.js,
+                React, Node.js).
               </p>
               <div className='pt-8 text-center'>
                 <a
-                  href='https://aneal07.github.io/Restaurent-Website/'
+                  href='https://blog-with-dashboard-mern.onrender.com/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -117,7 +118,7 @@ const Work = () => {
                   </button>
                 </a>
                 <a
-                  href='https://github.com/Aneal07/Restaurent-Website'
+                  href='https://github.com/Aneal07/Blog-with-Dashboard-MERN'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
